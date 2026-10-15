@@ -1,0 +1,79 @@
+
+
+#main {
+    width: 85%;
+    margin: 20px ;
+    background-color: white;
+    padding: 15px;
+}
+
+#header {
+    background-color: #9ee9e5;
+    text-align: right;
+    padding: 10px 25px;
+}
+
+#header h1 {
+    color: #238d8d;
+    font-size: 32px;
+}
+
+#header p {
+    color: #238d8d;
+    margin: 5px;
+    font-size: 20px;
+}
+
+#content {
+    display: flex;
+    margin-top: 20px;
+}
+
+#friends {
+    width: 25%;
+    background-color: #39cfc5;
+    border: 5px solid #168f8c;
+    padding: 10px;
+    height: 180px;
+}
+
+#friends h2 {
+    color: #238d8d;
+    margin-top: 5px;
+}
+
+#friends li {
+    margin: 10px 0;
+    color: #237f7f;
+}
+
+#posts {
+    width: 75%;
+}
+
+.post {
+    background-color: #dff7f6;
+    border: 5px solid #b6dedd;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.post h2 {
+    color: #238d8d;
+    border-bottom: 3px dashed #238d8d;
+    display: inline-block;
+}
+
+.post p {
+    color: #b47777;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.post img {
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+    float: right;
+    margin: 10px;
+}

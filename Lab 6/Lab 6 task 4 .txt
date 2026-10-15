@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Victoria's Journal</title>
+    <link rel="stylesheet" href="C:\Users\hh\source\repos\Q11\Q11\lab 6 task 3.css">
+</head>
+
+<body>
+
+    <div id="main">
+
+        <header id="header">
+            <h1>Victoria's Journal</h1>
+            <p>So fresh and so clean</p>
+        </header>
+
+        <div id="content">
+
+            <aside id="friends">
+                <h2>Friends</h2>
+
+                <ul>
+                    <li>390 Buddies</li>
+                    <li>Big Will</li>
+                    <li>Conan the Librarian</li>
+                </ul>
+            </aside>
+
+            <section id="posts">
+
+                <div class="post">
+                    <h2>04/09/08: Spatulas</h2>
+
+                    <img src="C:\Users\hh\Documents\img task 3 (2).jpeg">
+
+                    <p>
+                        Yesterday, I went to the store and got some much
+                        needed spatulas! (what better way to say I love
+                        myself than to buy myself a spatula?)
+                    </p>
+                </div>
+
+                <div class="post">
+                    <h2>04/08/08: Cookie Cupcakes</h2>
+
+                    <img src="C:\Users\hh\Documents\img task 3 (1).jpeg">
+
+                    <p>
+                        My favorite cartoon character is cookie, and my
+                        favorite dessert is cupcakes. So Cookie Cupcakes
+                        are best of both the worlds. Did you know? Cookie
+                        character once said, "Sometimes me think what is
+                        love, and then me think love is what cookie is for.
+                        Me give up the last cookie for you." I wonder if the
+                        same applies for the cupcakes?
+                    </p>
+                </div>
+
+            </section>
+
+        </div>
+
+    </div>
+
+</body>
+</html>

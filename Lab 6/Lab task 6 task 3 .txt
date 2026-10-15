@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continental Hotel Reservation Form</title>
+    <style>
+        body {
+            display: flex;	
+            justify-content: center;
+           }
+
+        .form-container {
+            background-color: #d3d3d3;
+            padding: 25px;
+        }
+
+        .form-title {
+            color: #cc0000;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #c6d9f1;
+            border: 2px solid #4f81bd;
+        }
+
+        td {
+            border: 1px solid #4f81bd;
+            padding: 8px;
+            font-size: 14px;
+        }
+
+        .label-cell {
+            font-weight: bold;
+            text-align: right;
+            width: 30%;
+        }
+
+
+        input[type="text"] {
+           width:250px;
+            padding: 4px;
+            font-size: 13px;
+        }
+
+        .departure-inputs input[type="text"] {
+            width: 120px;
+            
+        }
+
+ 
+        select {
+            padding: 2px;
+            border: 1px solid #7f9db9;
+            font-size: 13px;
+            margin-left: 5px;
+        }
+
+        .button-row {
+            text-align: center;
+        }
+
+        input[type="submit"] {
+            background-color: #e1e1e1;
+            border: 1px solid #707070;
+            padding: 4px 15px;
+            font-size: 13px;
+            border-radius: 2px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <div class="form-title">Continental Hotel Reservation Form</div>
+    
+    <form>
+        <table>
+                        <tr>
+                <td class="label-cell">Name</td>
+                <td>
+                    <input type="text" placeholder="Enter your name">
+                </td>
+            </tr>
+           
+            <tr>
+                <td class="label-cell">eMail</td>
+                <td>
+                    <input type="text" value="info@continental.pk">
+                </td>
+            </tr>
+           
+            <tr>
+                <td class="label-cell">Mobile No</td>
+                <td>
+                    <input type="text" placeholder="Enter your cell number">
+                </td>
+            </tr>
+                        <tr>
+                <td class="label-cell">Arrival Time</td>
+                <td>
+                    <input type="text" placeholder="Enter your arrival time">
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="label-cell">Departure</td>
+                <td class="input-cell departure-inputs">
+                    <input type="text">
+                    <input type="text">
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="label-cell" style="vertical-align: top; padding-top: 10px;">Room Type</td>
+                <td class="input-cell radio-group">
+                    <input type="radio" id="single" name="room_type" value="single">
+                    <label id="single">Single</label>
+                    <input type="radio" id="double" name="room_type" value="double">
+                    <label id="double">Double</label>
+                    <br>
+                    <input type="radio" id="suite" name="room_type" value="suite">
+                    <label id="suite">Presidential Suite</label>
+                </td>
+            </tr>
+           
+            <tr>
+                <td class="label-cell" style="vertical-align: top; padding-top: 10px;">Preferences</td>
+                <td class="input-cell checkbox-group">
+                    <input type="checkbox" id="non-smoking">
+                    <label id="non-smoking">Non-Smoking</label>
+                    <br>
+                    <input type="checkbox" id="internet">
+                    <label id="internet">Internet</label>
+                    <br>
+                    <input type="checkbox" id="mattress">
+                    <label id="mattress">Firm Mattress</label>
+                </td>
+            </tr>
+            
+            <tr>
+                <td class="label-cell" style="vertical-align: top; padding-top: 10px;">Mode of Payment</td>
+                <td class="input-cell payment-group">
+                    <input type="checkbox" id="cash">
+                    <label id="cash">Cash</label>
+                    <input type="checkbox" id="check">
+                    <label id="check">Check</label>
+                    <br>
+                    <input type="checkbox" id="credit-card">
+                    <label id="credit-card">Credit Card</label>
+                    <select name="card_type">
+                        <option value="">Select Card</option>
+                        <option value="visa">Visa</option>
+                        <option value="mastercard">Mastercard</option>
+                    </select>
+                </td>
+            </tr>
+           
+            <tr>
+                <td colspan="2" class="button-row">
+                    <input type="submit" value="Send Data">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>
